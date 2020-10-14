@@ -7,7 +7,7 @@ find_package(catkin REQUIRED COMPONENTS
   fs_msgs
 )
 catkin_package(
-  CATKIN_DEPENDS roscpp joy fs_msgs
+  CATKIN_DEPENDS roscpp fs_msgs
 )
 
 include_directories(
