@@ -5,7 +5,7 @@
   "ClockSpeed": 1.0,
   "SpectatorServerPassword": "password",
   "PawnPaths": {
-    "DefaultCar": { "PawnBP": "Class'/AirSim/VehicleAdv/Cars/TechnionCar/TechnionCarPawn.TechnionCarPawn_C'" }
+    "DefaultCar": { "PawnBP": "Class'/AirSim/VehicleAdv/Cars/DynamisCar/DynamisCarPawn.DynamisCarPawn_C'" }
   },
   "Vehicles": {
     "FSCar": {
@@ -30,14 +30,14 @@
           "Enabled": true,
           "X": 0.80, "Y": 0, "Z": 0.15,
           "Roll": 0, "Pitch": 0, "Yaw" : 0,
-          "NumberOfLasers": 125,
-          "PointsPerScan": 75000,
+          "NumberOfLasers": 64,
+          "PointsPerScan": 35000,
           "VerticalFOVUpper": 12.5,
           "VerticalFOVLower": -12.5,
           "HorizontalFOVStart": -60,
           "HorizontalFOVEnd": 60,
           "RotationsPerSecond": 10,
-          "DrawDebugPoints": true
+          "DrawDebugPoints": false
         },
         "GSS" : {
           "SensorType": 7,
@@ -60,23 +60,7 @@
           "Pitch": 0.0,
           "Roll": 0.0,
           "Yaw": 0
-      },
-        "cam2": {
-          "CaptureSettings": [
-            {
-              "ImageType": 0,
-              "Width": 785,
-              "Height": 785,
-              "FOV_Degrees": 90
-            }
-          ],
-          "X": -0.3,
-          "Y": 0.16,
-          "Z": 0.8,
-          "Pitch": 0.0,
-          "Roll": 0.0,
-          "Yaw": 0.0
-        }
+      	}
       },
       "X": 2, "Y": 0, "Z": 0,
       "Pitch": 0, "Roll": 0, "Yaw": 0

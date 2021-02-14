@@ -4,7 +4,7 @@ operator/logs/
 # Inside the simulator folder the compiled version of the UE4Project will be placed which shouldn't be committed.
 simulator/
 !simulator/readme.md
-fsds-v2.0.0-linux/
+fsds-v*/
 
 # compiled mkdocs html
 site
