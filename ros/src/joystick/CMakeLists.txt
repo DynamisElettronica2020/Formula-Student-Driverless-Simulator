@@ -3,7 +3,6 @@ project(joystick)
 
 find_package(catkin REQUIRED COMPONENTS
   roscpp
-  joy
   fs_msgs
 )
 catkin_package(
